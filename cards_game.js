@@ -5,7 +5,7 @@ let cards = ["cAce", "c1", "c2", "c3", "c4", "c5", "c6", 'c7', "c8", "c9", "c10"
 
 console.log("Keep any of this card in your mind: " + "\n" + cards + "\n")
 
-let con = "yes"
+let con = prompt("If you want to play the game type 'yes': ")
 
 if (con == "yes") {
   
@@ -31,7 +31,7 @@ if (con == "yes") {
   third_row.push(cards.slice(14, 21));
   console.log("first_row: " + first_row[0] + "\n" +       "second_row: " +        second_row[0] + "\n" + "third_row: " +   third_row[0] + "\n")
             
-  var input = prompt("type: ")
+  var input = prompt("Enter the row in which your card is present: ")
             
     if (input == "first_row") {
         empty.push(second_row[0]);
@@ -103,5 +103,5 @@ if (con == "yes") {
           flat = empty.flat();
       }
     }
-  console.log(flat[10])
+  console.log("The card in your mind is: " + flat[10])
 }
