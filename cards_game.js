@@ -3,8 +3,6 @@ let cards = ["cAce", "c1", "c2", "c3", "c4", "c5", "c6", 'c7', "c8", "c9", "c10"
      "s9", "s10", "sJ", "sQ", "sK", "dAce", "d1", "d2", "d3", "d4", "d5", "d6", "d7", "d8", "d9", "d10", "dJ", "dQ", "dK"
 ]
 
-console.log("Keep any of this card in your mind: " + "\n" + cards + "\n")
-
 let con = prompt("If you want to play the game type 'yes': ")
 
 if (con == "yes") {
